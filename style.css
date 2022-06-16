@@ -1,0 +1,136 @@
+@font-face {
+    font-family:Poppins-ExtraBold;
+    src: url(./font/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face{
+    font-family: light;
+    src: url(./font/Poppins/Poppins-Light.ttf);
+}
+
+body{
+    background-image: url(./image/bg-intro-desktop.png);
+    background-color: #FF7978;
+    background-size: 100%;
+    height: fit-content;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header{
+    width: 50%;
+    padding: 170px 40px 0 150px;
+    color: #FEFEFE;
+}
+
+
+h1{
+    font-family:Poppins-ExtraBold;
+    font-size: 40px;
+    width: 399px;
+}
+.header p{
+    width: 450px;
+    font-family: light;
+    font-size: small;
+}
+
+.form{
+    width: 45%;
+    margin-top: 50px;
+}
+
+#top-info{
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 0 10px 50px;
+    color: #FEFEFE;
+    font-weight: 10;
+    border-radius: 5px;
+    width: 328px;
+    font-family: light;
+    font-size: x-small;
+}
+
+section{
+    padding-left: 30px;
+}
+span{
+    font-family: Poppins-ExtraBold;
+    font-size: larger;
+}
+
+#input{
+    background-color: #FEFEFE;
+    padding : 30px 0 10px 0;
+    border-radius: 5px;
+    width: 379px;
+    margin-top: 20px;
+}
+
+#input p{
+    margin-left: 53px;
+    font-family: light;
+    font-size: x-small;
+}
+small a{
+    text-decoration: none;
+    color: #FF7978;
+    font-family: Poppins-ExtraBold;
+}
+
+input{
+    width: 300px;
+    padding: 15px ;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    border-radius: 6px;
+    font-family: Poppins-ExtraBold;
+}
+
+button{
+    margin-left: 25px;
+    width: 333px;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-weight: 1000;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+}
+
+
+@media (max-width :1062px){
+    body{
+        padding-bottom: 90px;
+    }
+
+    .main{
+        flex-wrap: wrap;
+        text-align: center;
+        padding:0;
+        width: 100%;
+    }
+
+    .header{
+        padding: 0;
+    }
+
+    h1{
+        width: 100%;
+        padding-left: 50%;
+    }
+
+    .header p{
+        padding-left: 50%;
+        width: 100%;
+    }
+
+    .form{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+       
+}
